@@ -27,17 +27,27 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/
-        </loc>
-    </url>
-    <url>
-        <loc>
             http://localhost:8000/sample-page/
         </loc>
     </url>
     <url>
         <loc>
             http://localhost:8000/products/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/contact/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/blog/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/home/
         </loc>
     </url>
     <url>
@@ -58,6 +68,11 @@
     <url>
         <loc>
             http://localhost:8000/products/card-binder-storage-album/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/bulk-card-collection-box/
         </loc>
     </url>
     <url>
