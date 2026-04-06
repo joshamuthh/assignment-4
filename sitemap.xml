@@ -47,6 +47,21 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/products/binder-collection/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/booster-packs/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/card-binder-storage-album/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/category/uncategorized/
         </loc>
     </url>
