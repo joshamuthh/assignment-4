@@ -4,5 +4,114 @@ Description:
 Author:         joshamuth
 Template:       storefront
 
-(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
-*/
+/* ===== GENERAL STYLES ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+.site {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #2a75bb; /* Pokémon blue */
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+
+a {
+    color: #ffcb05; /* Pokémon yellow */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2a75bb;
+}
+
+
+.site-header {
+    background: #2a75bb;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+.site-title {
+    margin: 0;
+}
+
+
+.main-navigation {
+    margin-top: 10px;
+}
+
+.main-navigation a {
+    margin-right: 15px;
+    color: white;
+}
+
+.main-navigation a:hover {
+    text-decoration: underline;
+}
+
+.post, .product {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+
+button, .button, input[type="submit"] {
+    background: #ffcb05;
+    color: #333;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover, .button:hover, input[type="submit"]:hover {
+    background: #2a75bb;
+    color: white;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+
+.site-footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    background: #eee;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
